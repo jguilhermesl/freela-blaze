@@ -1,0 +1,50 @@
+.sectionTelegram {
+    padding: 3rem 2rem;
+    position: relative;
+    z-index: -2;
+    background: #000;
+
+    .imgBg {
+        width: 100%;
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        right: 0rem;
+        z-index: -1;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.15;
+    }
+
+    .contentSectionTelegram {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        color: #fff;
+
+        .iconTelegram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            border-radius: 50%;
+            background: #fff;
+            font-size: 2.1rem;
+            cursor: pointer;
+            margin: 2rem 0;
+
+            svg {
+                color: #000;
+                margin-right: 2px;
+            }
+
+        }
+
+        span {
+            font-size: 1.5rem;
+        }
+
+
+    }
+}

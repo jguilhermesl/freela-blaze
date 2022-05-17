@@ -1,0 +1,15 @@
+.sectionDoubts {
+    background: #030006;
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    .contentSectionDoubts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
