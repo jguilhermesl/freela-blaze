@@ -7,6 +7,10 @@
     font-family: 'Outfit', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 1080px) {
     html {
         font-size: 93.75%;
@@ -43,6 +47,7 @@ button {
     align-items: center;
     gap: 10px;
     font-size: 2rem;
+    color: #fff;
     
 
     &::after {

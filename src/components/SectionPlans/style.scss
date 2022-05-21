@@ -1,0 +1,148 @@
+.sectionPlans {
+    padding: 3rem 2rem;
+    position: relative;
+    z-index: 1;
+    background: #000;
+
+    .contentSectionPlans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        .imgBg {
+            width: 100%;
+            position: absolute;
+            top: 0rem;
+            left: 0rem;
+            right: 0rem;
+            z-index: -1;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.15;
+        }
+
+        .cardsPlans {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            width: 90vw;
+            justify-content: center;
+
+            .boxCard{
+                width: 350px;
+                height: 550px;
+                background: #fff;
+                padding: 2rem 0.5rem;
+                border-radius: 15px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                position: relative;
+
+                h1 {
+                    color: #9A0EAD;
+                    text-align: center;
+                    font-size: 1.7rem;
+                    font-weight: 800;
+                }
+
+                .line {
+                    width: 100%;
+                    height: 1px;
+                    background: rgba(0,0,0,0.1);
+                    margin: 1rem 0;
+                }
+
+                span {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 1.8rem;
+                    color: rgba(0,0,0,0.8);
+                    font-weight: 700;
+                    margin: 1rem 0;
+                    flex-direction:column;
+                    text-align: center;
+
+                    p {
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                    }
+                }
+
+                h2 {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    margin-left: 10px;
+                }
+
+                .benefits {
+                    margin-top: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 0;
+
+                    
+                    span {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: left;
+                        width: 95%;
+                        font-size: 1rem;
+                        padding: 0;
+                        margin: 0.3rem 0;
+                        text-align: left;
+                        align-items: center;
+                        gap: 5px;
+                        color: rgba(0,0,0,0.7);
+
+                        svg {
+                            color: #9A0EAD;
+                        }
+                    }
+                }
+
+                .buttonCardPlan {
+                    display: flex;
+                    justify-content: center;
+
+
+                    button {
+                        width: 200px;
+                        height: 40px;
+                        background: #9A0EAD;
+                        margin: 0 auto!important;
+                        color: #fff;
+                        border-radius: 10px;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        position: absolute;
+                        bottom: 2rem;
+                        left: 0rem;
+                        right: 0rem;
+                    }
+                }
+
+                @media only screen and (max-width: 700px) {
+                    width: 310px;
+                    height: 420px;
+                }
+            }
+        }
+    }
+
+    .methodsPaymentImage {
+        img {
+            width: 55vw;
+        }
+    }
+
+    .lastChance {
+            padding: 1rem 2rem;
+            font-weight: 700;
+            font-size: 1.3rem;
+            background: #9A0EAD;
+            color: #fff;
+            border-radius: 30px;
+            box-shadow: #9A0EAD 0px 0px 21px 0px;
+    }
+}

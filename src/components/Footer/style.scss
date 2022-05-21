@@ -1,0 +1,31 @@
+.footer {
+    background: #030006;
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    .contentFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        span {
+            margin: 1rem auto;
+            font-size: 1.1rem;
+        }
+
+        img {
+            width: 15vw;
+
+            @media only screen and(max-width: 700px) {
+                width: 30vw;
+            }
+        }
+    }
+
+
+}

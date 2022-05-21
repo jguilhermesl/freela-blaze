@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import print1 from '../../assets/print1.jpeg'
 import print2 from '../../assets/print2.jpeg'

@@ -1,7 +1,7 @@
 .sectionInitial {
     padding: 3rem 2rem;
     position: relative;
-    z-index: -2;
+    z-index: 1;
     background: #000;
 
     .contentSectionInitial {
@@ -63,7 +63,8 @@
             color: #fff;
             border-radius: 30px;
             box-shadow: #9A0EAD 0px 0px 21px 0px;
+            cursor: pointer;
+            z-index: 10;
         }
     }
 }
-

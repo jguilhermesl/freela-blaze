@@ -17,7 +17,7 @@ export function SectionPhones() {
                     <img src={cel2} alt="" />
                 </div>
                 <span>Faça parte da melhor sala de sinais.</span>
-                <button type="button">QUERO FAZER PARTE</button>
+                <button type="button"><a href="#sectionPlans">QUERO FAZER PARTE</a></button>
             </div>
             <img src={background} className="imgBg"/>
       </section>

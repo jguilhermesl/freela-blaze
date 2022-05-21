@@ -11,7 +11,7 @@ export function SectionTelegram() {
         <section className="sectionTelegram">
             <div className="contentSectionTelegram">
                 <h1 className="titleCustom">Conheça nosso grupo gratuito</h1>
-                <a href="" target="_blank" className="iconTelegram">
+                <a href="https://t.me/blazeprosinaisfree" target="_blank" className="iconTelegram">
                     <FaTelegramPlane />
                 </a>
                 <span>CANAL FREE [DOUBLE]</span>
