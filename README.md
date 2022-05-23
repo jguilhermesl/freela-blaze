@@ -1,4 +1,4 @@
-# Ferramenta de Feedback
+# Landing Page para venda de mentoria do Blaze - Freela
 
 <img src="./src/assets/gif-blaze.gif" />
 
