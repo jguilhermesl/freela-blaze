@@ -12,7 +12,7 @@ export function SectionPlans() {
     return (
         <section className="sectionPlans" id="sectionPlans">
             <div className="contentSectionPlans">
-                <h1 className="titleCustom">Dúvidas frequentes</h1>
+                <h1 className="titleCustom">Nossos planos</h1>
                 <div className="cardsPlans">
                     <div className="boxCard">
                         <h1>Plano MENSAL</h1>

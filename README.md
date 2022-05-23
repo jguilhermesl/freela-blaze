@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Ferramenta de Feedback
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./src/assets/gif-blaze.gif" />
 
-## Available Scripts
+Link da aplicação: <a target="_blank" href="https://japadab.netlify.app/">https://japadab.netlify.app/
+</a>
 
-In the project directory, you can run:
+### 💼 Ajustes e alterações
 
-### `npm start`
+> O projeto foi finalizado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [x] Instalação das dependências
+- [x] Componentização da Single Page
+- [x] Componentes de Seções, IconWhats & Footer
+- [x] Estilização com SASS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📁 Componentes
 
-### `npm test`
+- **Projeto**: o projeto consiste numa Landing Page totalmente componentizada e organizada em código. A página única foi dividida em 8 componentes + o componente IconWhats.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 👨‍💻 Tecnologias
+Tecnologias usadas no projeto:
 
-### `npm run build`
+<ul>
+    <li>HTML</li>
+    <li>SASS</li>
+    <li>ReactJS</li>
+    <li>React Icons</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💼 Como o projeto funciona
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O projeto consiste numa Landing Page para venda de mentorias para o jogo Blaze.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🤝 Colaborador
 
-### `npm run eject`
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEEieIa-_h22g/profile-displayphoto-shrink_800_800/0/1651164045663?e=1658966400&v=beta&t=20osuQdvJ8V16r834e0NxcSHYMEE_1t-okD5LF-wATw" width="100px;" alt="Foto do João Guilherme no GitHub"/><br>
+        <sub>
+          <b>João Guilherme</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### :closed_book: Requisitos ##
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois de iniciar :checkered_flag:, você precisa ter o  [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :checkered_flag: Iniciar ##
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+# Clonar o projeto
+$ git clone https://github.com/jguilhermesl/freela-blaze
+# Acesse
+$ cd freela-blaze
+# Instalar dependências
+$ yarn ou npm 
+# Rodar o projeto
+$ npm run dev ou yarn dev
+# O servidor será inicializado em <http://localhost:3000>
+```
